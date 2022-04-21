@@ -93,6 +93,7 @@ while True:
 	# detect faces in the frame and determine if they are wearing a
 	# face mask or not
 	(locs, preds) = detect_and_predict_mask(frame, faceNet, maskNet)
+	print(locs)
 
 	# loop over the detected face locations and their corresponding
 	# locations
